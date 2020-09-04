@@ -1,9 +1,12 @@
 .header {
   height: 52px;
-  max-width: 1184px;
-  outline: 1px solid white;
   display: flex;
-  align-items: center;
-  margin-top: 28px;
-  margin: 28px auto;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    height: 42px;
+  }
 }
