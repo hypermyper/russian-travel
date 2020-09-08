@@ -17,3 +17,4 @@
 **GitHub**
 
 * [Ссылка на GitHub](https://github.com/hypermyper/russian-travel)
+* [Ссылка на gh-pages](https://hypermyper.github.io/russian-travel/index.html)
