@@ -20,10 +20,19 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+/* применяем flex-direction: column раньше, чем по макету,
+т. к. элемент __copyright не помещается в одной строке с элементом __link */
+
+@media screen and (max-width: 720px) {
   .footer {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
     padding-top: 64px;
+    width: calc(100% - 16px*2);
   }
 }
 

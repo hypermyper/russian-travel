@@ -6,12 +6,12 @@
   margin-left: 18px;
 }
 
-.header__lang-link a.active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
   }
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
