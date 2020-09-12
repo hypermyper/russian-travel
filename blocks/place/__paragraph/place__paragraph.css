@@ -9,8 +9,15 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
+    font-size: 18px;
+    line-height: 1.61;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.625;
   }
 }
 
