@@ -1,4 +1,12 @@
 .place__image {
   grid-area: image;
   width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.place__image:hover {
+  cursor: pointer;
+  box-shadow: 0 0 150px 0px #ffffff5c;
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
 }

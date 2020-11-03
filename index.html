@@ -45,18 +45,18 @@
           </ul>
       </section>
       <section class="photo-grid">
-        <img src="./images/photo-grid-train.jpg" class="photo-grid__item" alt="Поезд">
-        <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Атхарва Тулси">
-        <img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt="Туман">
-        <img src="./images/photo-grid-sochi.jpg" class="photo-grid__item" alt="Сочи">
-        <img src="./images/photo-grid-arisa.jpg" class="photo-grid__item" alt="Ариса">
-        <img src="./images/photo-grid-baikal.jpg" class="photo-grid__item" alt="Байкал">
-        <img src="./images/photo-grid-elbrus.jpg" class="photo-grid__item" alt="Эльбрус">
-        <img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__item" alt="Кондратьев">
-        <img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt="Камчатка 1">
-        <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="Камчатка 2">
-        <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Байкал 2">
-        <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Ергаки">
+        <a data-fancybox="gallery" href="./images/photo-grid-train.jpg" data-caption="Поезд"><img src="./images/photo-grid-train.jpg" class="photo-grid__item" alt="Поезд"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-atharva-tulsi.jpg" data-caption="Атхарва Тулси"><img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Атхарва Тулси"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-tuman.jpg" data-caption="Туман"><img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt="Туман"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-sochi.jpg" data-caption="Сочи"><img src="./images/photo-grid-sochi.jpg" class="photo-grid__item" alt="Сочи"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-arisa.jpg" data-caption="Ариса"><img src="./images/photo-grid-arisa.jpg" class="photo-grid__item" alt="Ариса"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-baikal.jpg" data-caption="Байкал"><img src="./images/photo-grid-baikal.jpg" class="photo-grid__item" alt="Байкал"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-elbrus.jpg" data-caption="Эльбрус"><img src="./images/photo-grid-elbrus.jpg" class="photo-grid__item" alt="Эльбрус"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-kondratiev.jpg" data-caption="Кондратьев"><img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__item" alt="Кондратьев"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-kamchatka-1.jpg" data-caption="Камчатка 1"><img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt="Камчатка 1"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-kamchatka-2.jpg" data-caption="Камчатка 2"><img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="Камчатка 2"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-baikal-2.jpg" data-caption="Байкал 2"><img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Байкал 2"></a>
+        <a data-fancybox="gallery" href="./images/photo-grid-ergaki.jpg" data-caption="Ергаки""><img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Ергаки"></a>
       </section>
       <section class="places">
         <article class="place">
@@ -163,5 +163,15 @@
       <p class="footer__copyright">© 2020. Александр Зенкин</p>
     </footer>
   </div>
+  <section class="overlay overlay_image-popup">
+    <figure class="overlay-figure">
+      <button type="button" class="overlay__close-icon"><img src="images/close-icon.svg" alt="Закрыть форму"></button>
+      <img src="" alt="" class="overlay-figure__image">
+      <figcaption class="overlay-figure__caption"></figcaption>
+    </figure>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

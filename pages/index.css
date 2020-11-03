@@ -33,7 +33,13 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/overlay/overlay.css);
+@import url(../blocks/overlay/__close-icon/overlay__close-icon.css);
+@import url(../blocks/overlay/_opened/overlay_opened.css);
+@import url(../blocks/overlay-figure/overlay-figure.css);
+@import url(../blocks/overlay-figure/__image/overlay-figure__image.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links-wrapper/footer__links-wrapper.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css);
